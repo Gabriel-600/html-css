@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: "Minha fonte";
+    src: url(idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+header p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.4em;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    padding-top: 30px;
+    margin: 10;
+    
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #47B300, #378A00, #276100);
+    color: white;
+    padding-left: 10px;
+    width: 100%;
+    margin: 0;
+    
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+
+
+h1 {
+    font-family: "Minha fonte", sans-serif;
+    color: rgb(0, 123, 0);
+    background-color: rgba(16, 149, 16, 0.26);
+}
+
+p {
+     
+
+    text-align: center;
+}
+
+
+main {
+    
+    background-color: white;
+        border-radius: 10px;
+        box-shadow: 6px 6px 10px #39697c;
+        width: 800px;
+        padding: 6px;
+        margin: auto;
+    
+}
+
+.video {
+    border: solid, darkgreen;
+    background-color: darkgreen;
+    color: #276100;
+    margin-inline: 20px;
+    
+}
