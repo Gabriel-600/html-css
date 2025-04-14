@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container {
+            position: relative;
+            background-size: 100% 100%;
+            background-image: url(imagens/target001.png);
+            height: 98vh;
+            padding: 10px;
+            background-color: blue;
+
+        }
+
+        #conteudo {
+            background-size: 100% 100%;
+            background-image: url(imagens/target001.png);
+            position: absolute;
+            background-color: chartreuse;
+            height: 200px;
+            width: 400px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            
+        </article>
+    </section>
+
+    <div style= "position: relative; height: 800px; background: lightgray;">
+        <div style="position: absolute; left: 600px; bottom: 400px; width: 400px; height: 200px; background: chartreuse;">
+            <p style="text-align: center;">Eu sou absoluto 😎</p>
+        </div>
+    </div>
+
+
+
+
+    
+    
+    
+</body>
+</html>
