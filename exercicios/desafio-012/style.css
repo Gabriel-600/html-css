@@ -29,6 +29,32 @@ header a {
     
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 3em;
+    padding-left: 30px;
+    
+}
+
+div.imagem {
+    background-attachment: fixed;
+}
+
+div.imagem > p {
+    background-color: rgba(0, 0, 0, 0.367);
+}
+
+div#img01 {
+    background-position: right center;
+    background-size: cover;
+}
+
+div#img02 {
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
 main p {
     text-align: left;
     text-align: justify;
@@ -48,7 +74,6 @@ main .imagem {
 
 .imagem p {
     border: solid ;
-    border
     display: block;
     text-align: justify;
     box-shadow: 1px 1px 1px 3px rgba(164, 95, 95, 0);
